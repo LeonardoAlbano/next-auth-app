@@ -1,3 +1,6 @@
+import LoginFacebook from "@/components/LoginFacebook";
+import LoginGithub from "@/components/LoginGithub";
+
 export default function SignIn() {
     return(
         <div className="w-full flex mt-20 justify-center">
@@ -5,6 +8,8 @@ export default function SignIn() {
                 <h1 className="text-4xl w-full text-center font-bold mb-10">
                     Sign In
                 </h1>
+                <LoginGithub />
+                <LoginFacebook />
             </div>
         </div>
     )
